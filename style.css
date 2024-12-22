@@ -1,0 +1,58 @@
+/* styles.css */
+
+
+
+.profile-picture {
+  width: 150px; /* Width of the image */
+  height: 150px; /* Height of the image */
+  border-radius: 50%; /* Makes the image circular */
+  border: 2px solid #000; /* Optional border for styling */
+  display: block; /* Ensures the image behaves like a block element */
+  margin: 0 auto 20px; /* Centers the image and adds spacing below */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(214, 112, 207, 0.84);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+  }
+  
+  .resume-container {
+    margin-top:600px;
+    margin-bottom:250px;
+    border: 5px solid black; /* Creates a black border around the resume */
+    max-width: 800px;
+    width: 100%;
+    background-color:  rgb(255, 192, 240);
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  
+  
+  }
+  
+  h1, h2 {
+    color: purple;
+    text-decoration: double underline;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  #personal-info {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
